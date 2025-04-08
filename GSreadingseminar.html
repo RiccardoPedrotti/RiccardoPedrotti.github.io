@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="format.css" type="text/css" />
+    <!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<style>
+    #layout-content {
+        max-width: 1200px; /* Set the max width for the column */
+        margin: 0 auto; /* Center the column horizontally */
+        padding: 20px;
+        background-color: white;
+    }
+
+    /* Styling for the text and headers */
+    h1 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    h2 {
+        font-size: 20px;
+        color: #333;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    /* Center images and add some margin */
+    .b {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    /* Optional: add styling for links */
+    a {
+        color: #881c1c;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    /* Styling for captions below images */
+    span {
+        display: block;
+        text-align: center;
+        font-size: 14px;
+        color: #777;
+    }
+
+    /* Add a simple style to the side-text */
+    .side-text {
+        font-size: 14px;
+        color: #666;
+        margin-top: 10px;
+    }
+
+    /* Container for the two columns */
+    .columns {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px; /* Space between the two columns */
+    }
+
+    /* Flexbox for columns */
+    .column {
+        flex: 1; /* Each column will take up equal width */
+    }
+
+    iframe {
+        width: 100%; /* Let the iframe take full width of its column */
+    }
+
+    @media screen and (max-width: 768px) {
+        /* Make the columns stack vertically on smaller screens */
+        .columns {
+            flex-direction: column;
+        }
+    }
+</style>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="CV.html">CV</a>
+        <a  href="Research.html">Research</a>
+        <a href="Teaching.html">Teaching</a>
+        <a href="Notes.html">Notes</a>
+        <a class="active" href="LearningSeminars.html">Learning Seminars</a>
+    </div>
+
+    <section id="GSseminar">
+        <div id="layout-content">       
+            <div> 
+                <h1 class="profile-title">The Gompf-Stipsicz 4-manifolds Seminar</h1>
+            </div>
+
+            <p>During the Fall term 2024 we will try to cover Chapters 1-2 of Gompf and Stipsicz 4-manifold and Kirby calculus book [GS]. This seminar is organised by <a href="https://people.math.umass.edu/~rpedrotti/index.html"> Riccardo Pedrotti </a>.</p>
+
+            <h2>Meeting:</h2>
+            <p>We will meet on <b>Fridays</b> in <b>LGRT 1685</b> at <b>10-11am</b></p> 
+            <h2> Notes:</h2>
+            <p> Notes are available for participants only, since are provided as is at the discretion of the speaker. To request access, send the organiser an email! <a href="https://drive.google.com/drive/folders/144yLdH7N5gAnz1OWBelPLWginMtO0Wad?usp=sharing">Notes</a>
+            <h2>Schedule:</h2>
+
+            <!-- Container for the two columns -->
+            <div class="columns">
+                <!-- Column 1: Google Calendar -->
+                <div class="column">
+                    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=America%2FNew_York&bgcolor=%23D50000&mode=AGENDA&title=Gompf-Stipsicz%204%20Manifold%20Reading%20Seminar%20&src=MDcwMjU4ZGRlZGQxZDVkZWUyMzIzN2MzY2ViZTI3ODE1ZDg1OTRhZWY4NDlhNWUyZTBjYmE2NjNiMzVkNWE1ZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5" style="border:solid 1px #777" width="400" height="400" frameborder="0" scrolling="no"></iframe>
+                </div>
+
+                <!-- Column 2: Schedule List -->
+                <div class="column">
+                    <p><dt><b>Planning meeting and overview</b></dt><dd>Riccardo - Friday 9/27</dd></p>
+                    <p><dt><b>Introduction to 4-manifolds</b>: [GS] Chapter 1 (1.2, 1.4)</dt><dd>  Riccardo - Friday October 11th</dd></p>
+                    <p><dt><b>Surfaces in 4-manifolds part 1</b>:[GS] Chapter 2</dt><dd> Takuto - Friday October 18th</dd></p>
+                    <p><dt><b>Handlebodies and Kirby diagrams part 1</b>: </dt><dd> Kerem - Friday October 25th</dd></p>
+                    <p><dt><b>Heegaard Splittings</b>: [GS] Chapter 4 part 1</dt><dd> Richard - Friday November 1th</dd></p>
+                    <p><dt><b>Complex Surfaces</b>: [GS] Chapter 3 part 2</dt><dd> Ethan - Friday November 8th</dd></p>
+                    <p><dt><b> Kirby  diagrams</b>: [GS] Chapter 4.4-4.5</dt><dd> Jie - Friday November 15th</dd></p>
+                    <p><dt><b>Kirby  diagrams </b>: [GS] Chapter 4.6</dt><dd> Riccardo - Friday November 22nd</dd></p>
+                    <p><dt><b>Kirby Calculus </b>: TBD</dt><dd> Takuto - Friday December 6th</dd></p>
+                    <p><dt><b>TBD</b>: TBD</dt><dd> TBD - Friday December 13th</dd></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

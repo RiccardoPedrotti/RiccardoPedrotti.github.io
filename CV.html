@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link rel="stylesheet" href="format.css" type="text/css" />
+</head>
+<body>
+<font face="Lato" color="black">
+<style>
+    #layout-content {
+            max-width: 1200px; /* Set the max width for the column */
+            margin: 0 auto; /* Center the column horizontally */
+            padding: 20px;
+            background-color: white;
+            /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+        }
+
+        /* Styling for the text and headers */
+        h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Center images and add some margin */
+        .b {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
+
+        /* Optional: add styling for links */
+        a {
+            color: green;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Styling for captions below images */
+        span {
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            color: #777;
+        }
+
+        /* Add a simple style to the side-text */
+        .side-text {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+<body>
+<!-- Top Navigation Bar -->
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="CV.html">CV</a>
+        <a  href="Research.html">Research</a>
+        <a href="Teaching.html">Teaching</a>
+        <a href="Notes.html">Notes</a>
+        <a href="LearningSeminars.html">Learning Seminars</a>
+    </div>
+
+
+	<section id="CV">
+        <br>
+        Here's a copy of my CV (updated Oct. 2024). Click <a href="pdf/CV.pdf"style="color:black"> here</a> if it does not render.
+        <br>
+	<div id="layout-content">
+        <embed src="pdf/CV.pdf" width="1200" height="1000" 
+ type="application/pdf">
+    </div>
+	</section>
+</body>
